@@ -8,9 +8,9 @@
 
 # Expected: Day 3: Cycle count, Day 5: Scanner audit, Day 15: FULL AUDIT, Day 30: FULL AUDIT
 
-months_days = 30
+months_days = 30 # total number of days in the month
 for day in range(1, months_days + 1):
-    if day % 3 == 0 and day % 5 == 0:
+    if day % 3 == 0 and day % 5 == 0: # check if the day is both a multiple of 3 and 5
         print(f"Day {day}: FULL AUDIT")
     elif day % 3 == 0:
         print(f"Day {day}: Cycle count")

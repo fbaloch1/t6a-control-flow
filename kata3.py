@@ -9,8 +9,8 @@
 
 # Stretch: do the other Kata 3 option too.
 
-aisle  =[1,2,3]
-shelf =[1,2,3,4]
+aisle  =[1,2,3] # list of aisles
+shelf =[1,2,3,4] # list of shelves
 
 for aisle in range(1, 4):
      for shelf in range(1, 5):

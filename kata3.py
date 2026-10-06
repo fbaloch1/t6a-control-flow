@@ -12,7 +12,7 @@
 aisle  =[1,2,3] # list of aisles
 shelf =[1,2,3,4] # list of shelves
 
-for aisle in range(1, 4):
-     for shelf in range(1, 5):
+for aisle in range(1, 4): # iterate over each aisle
+     for shelf in range(1, 5): # iterate over each shelf in the current aisle
          print(f"A{aisle}-S{shelf}", end=" ")
      print()
